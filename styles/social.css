@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+body{
+    background-color: #36e700;
+}
+
+img {
+    width: 100%;
+    margin-bottom: -10px;
+    position: relative;
+}
+
+a {
+    position: fixed;
+    bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 50px;
+
+    text-align: center;
+    padding-top: 25px;
+
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;        
+}
+
+a#youtube {
+    background-color: #5F0101;
+    
+}
+a#youtube:hover {
+    background-color: #ff0000;
+}
+
+a#github {
+    background-color: #1C8139;
+}
+
+a#github:hover {
+    background-color: #95C96F;
+}
+
+a#instagram {
+    background-color: #DA2F7B;
+}
+
+a#instagram:hover {
+    background-color: #4E61CF;
+}
